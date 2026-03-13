@@ -36,4 +36,6 @@ services:
       - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://eureka:8761/eureka/
     depends_on:
       - eureka
+      - pricingservice
+      - policyservice
     restart: always
