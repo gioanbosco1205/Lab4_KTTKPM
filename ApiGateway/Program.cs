@@ -34,7 +34,16 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-// Add CacheManager (required for caching + rate limit)
+// Add Redis caching
+var redisConnectionString = builder.Configuration.GetConnectionString("Redis") ?? "localhost:6379";
+
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = redisConnectionString;
+    options.InstanceName = "ApiGateway";
+});
+
+// Add CacheManager (required for Ocelot)
 builder.Services.AddCacheManager();
 
 // Add Ocelot + Eureka

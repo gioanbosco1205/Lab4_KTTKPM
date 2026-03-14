@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5KilL4dS+pc=",
+  "dgSpecHash": "cFWQXYRaQPM=",
   "success": true,
   "projectFilePath": "/Users/minhkhanhnguyen/Downloads/KTTKPM/ApiGateway/ApiGateway.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "/Users/minhkhanhnguyen/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/8.0.22/microsoft.aspnetcore.mvc.newtonsoftjson.8.0.22.nupkg.sha512",
     "/Users/minhkhanhnguyen/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/minhkhanhnguyen/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "/Users/minhkhanhnguyen/.nuget/packages/microsoft.extensions.caching.stackexchangeredis/8.0.0/microsoft.extensions.caching.stackexchangeredis.8.0.0.nupkg.sha512",
     "/Users/minhkhanhnguyen/.nuget/packages/microsoft.extensions.configuration/9.0.11/microsoft.extensions.configuration.9.0.11.nupkg.sha512",
     "/Users/minhkhanhnguyen/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.11/microsoft.extensions.configuration.abstractions.9.0.11.nupkg.sha512",
     "/Users/minhkhanhnguyen/.nuget/packages/microsoft.extensions.configuration.binder/9.0.11/microsoft.extensions.configuration.binder.9.0.11.nupkg.sha512",
@@ -56,6 +57,8 @@
     "/Users/minhkhanhnguyen/.nuget/packages/ocelot/24.1.0/ocelot.24.1.0.nupkg.sha512",
     "/Users/minhkhanhnguyen/.nuget/packages/ocelot.cache.cachemanager/24.1.0/ocelot.cache.cachemanager.24.1.0.nupkg.sha512",
     "/Users/minhkhanhnguyen/.nuget/packages/ocelot.provider.eureka/24.1.0/ocelot.provider.eureka.24.1.0.nupkg.sha512",
+    "/Users/minhkhanhnguyen/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "/Users/minhkhanhnguyen/.nuget/packages/stackexchange.redis/2.6.122/stackexchange.redis.2.6.122.nupkg.sha512",
     "/Users/minhkhanhnguyen/.nuget/packages/steeltoe.common/3.3.0/steeltoe.common.3.3.0.nupkg.sha512",
     "/Users/minhkhanhnguyen/.nuget/packages/steeltoe.common.abstractions/3.3.0/steeltoe.common.abstractions.3.3.0.nupkg.sha512",
     "/Users/minhkhanhnguyen/.nuget/packages/steeltoe.common.http/3.3.0/steeltoe.common.http.3.3.0.nupkg.sha512",
@@ -71,6 +74,7 @@
     "/Users/minhkhanhnguyen/.nuget/packages/system.diagnostics.eventlog/8.0.0/system.diagnostics.eventlog.8.0.0.nupkg.sha512",
     "/Users/minhkhanhnguyen/.nuget/packages/system.drawing.common/6.0.0/system.drawing.common.6.0.0.nupkg.sha512",
     "/Users/minhkhanhnguyen/.nuget/packages/system.identitymodel.tokens.jwt/7.0.3/system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
+    "/Users/minhkhanhnguyen/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512",
     "/Users/minhkhanhnguyen/.nuget/packages/system.net.http.json/3.2.1/system.net.http.json.3.2.1.nupkg.sha512",
     "/Users/minhkhanhnguyen/.nuget/packages/system.reflection.metadataloadcontext/4.6.0/system.reflection.metadataloadcontext.4.6.0.nupkg.sha512",
     "/Users/minhkhanhnguyen/.nuget/packages/system.security.accesscontrol/6.0.0/system.security.accesscontrol.6.0.0.nupkg.sha512",

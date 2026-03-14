@@ -81,3 +81,6 @@
 /Users/minhkhanhnguyen/Downloads/KTTKPM/ApiGateway/obj/Debug/net8.0/ApiGateway.MvcApplicationPartsAssemblyInfo.cs
 /Users/minhkhanhnguyen/Downloads/KTTKPM/ApiGateway/obj/Debug/net8.0/ApiGateway.sourcelink.json
 /Users/minhkhanhnguyen/Downloads/KTTKPM/ApiGateway/obj/Debug/net8.0/ApiGateway.csproj.Up2Date
+/Users/minhkhanhnguyen/Downloads/KTTKPM/ApiGateway/bin/Debug/net8.0/Microsoft.Extensions.Caching.StackExchangeRedis.dll
+/Users/minhkhanhnguyen/Downloads/KTTKPM/ApiGateway/bin/Debug/net8.0/Pipelines.Sockets.Unofficial.dll
+/Users/minhkhanhnguyen/Downloads/KTTKPM/ApiGateway/bin/Debug/net8.0/StackExchange.Redis.dll
