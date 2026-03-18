@@ -10,7 +10,7 @@ dotnet run
 # 2. Test API (terminal khác)
 curl -X POST "https://localhost:7001/api/account" \
   -H "Content-Type: application/json" \
-  -d '{"policyNumber": "POL001", "policyAccountNumber": "ACC001", "balance": 1000.50}' \
+  -d '{"policyNumber": "POL001", "policyAccountNumber": "ACC001", "ownerName": "Nguyen Van A", "balance": 1000.50}' \
   -k
 
 curl -X GET "https://localhost:7001/api/account/POL001" \
@@ -37,6 +37,7 @@ GET /api/account/{policyNumber}
     "id": "guid",
     "policyNumber": "POL001", 
     "policyAccountNumber": "ACC001",
+    "ownerName": "Nguyen Van A",
     "balance": 1000.50
 }
 ```

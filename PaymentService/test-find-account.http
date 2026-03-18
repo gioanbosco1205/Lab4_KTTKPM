@@ -16,6 +16,7 @@ Content-Type: application/json
 {
     "policyNumber": "POL001",
     "policyAccountNumber": "ACC001",
+    "ownerName": "Nguyen Van A",
     "balance": 1000.50
 }
 
@@ -25,7 +26,8 @@ Content-Type: application/json
 
 {
     "policyNumber": "POL002",
-    "policyAccountNumber": "ACC002", 
+    "policyAccountNumber": "ACC002",
+    "ownerName": "Tran Thi B", 
     "balance": 2000.75
 }
 
@@ -48,6 +50,7 @@ Content-Type: application/json
 {
     "policyNumber": "POL003",
     "policyAccountNumber": "ACC003",
+    "ownerName": "Le Van C",
     "balance": 5000.25
 }
 

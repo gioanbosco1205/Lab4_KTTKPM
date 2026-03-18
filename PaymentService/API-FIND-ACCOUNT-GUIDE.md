@@ -36,6 +36,7 @@ Content-Type: application/json
 {
     "policyNumber": "POL001",
     "policyAccountNumber": "ACC001",
+    "ownerName": "Nguyen Van A",
     "balance": 1000.50
 }
 ```
@@ -48,6 +49,7 @@ Content-Type: application/json
 {
     "policyNumber": "POL002", 
     "policyAccountNumber": "ACC002",
+    "ownerName": "Tran Thi B",
     "balance": 2000.75
 }
 ```
@@ -71,7 +73,8 @@ GET https://localhost:7001/policy-accounts/POL002
 {
     "id": "123e4567-e89b-12d3-a456-426614174000",
     "policyNumber": "POL001",
-    "policyAccountNumber": "ACC001", 
+    "policyAccountNumber": "ACC001",
+    "ownerName": "Nguyen Van A", 
     "balance": 1000.50
 }
 ```
@@ -104,7 +107,8 @@ curl -X POST "https://localhost:7001/api/account" \
   -H "Content-Type: application/json" \
   -d '{
     "policyNumber": "POL001",
-    "policyAccountNumber": "ACC001", 
+    "policyAccountNumber": "ACC001",
+    "ownerName": "Nguyen Van A", 
     "balance": 1000.50
   }' \
   -k

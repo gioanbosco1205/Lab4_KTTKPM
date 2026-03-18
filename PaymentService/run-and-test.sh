@@ -14,7 +14,7 @@ echo ""
 echo "   a) Tạo test account:"
 echo '   curl -X POST "https://localhost:7001/api/account" \'
 echo '     -H "Content-Type: application/json" \'
-echo '     -d '"'"'{"policyNumber": "POL001", "policyAccountNumber": "ACC001", "balance": 1000.50}'"'"' \'
+echo '     -d '"'"'{"policyNumber": "POL001", "policyAccountNumber": "ACC001", "ownerName": "Nguyen Van A", "balance": 1000.50}'"'"' \'
 echo '     -k'
 echo ""
 
