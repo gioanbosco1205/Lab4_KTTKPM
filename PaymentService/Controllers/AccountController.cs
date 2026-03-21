@@ -34,6 +34,24 @@ public class AccountController : ControllerBase
         }
     }
 
+    [HttpPatch("{id}")]
+    public async Task<IActionResult> UpdateAccount(Guid id, [FromBody] PolicyAccount updatedAccount)
+    {
+        try
+        {
+            var account = await _dataStore.PolicyAccounts.UpdateAccount(id, updatedAccount);
+            if (account == null)
+                return NotFound($"Account with ID {id} not found");
+
+            await _dataStore.CommitChanges();
+            return Ok(account);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest($"Error updating account: {ex.Message}");
+        }
+    }
+
     [HttpGet("{number}")]
     public async Task<IActionResult> GetAccountByNumber(string number)
     {

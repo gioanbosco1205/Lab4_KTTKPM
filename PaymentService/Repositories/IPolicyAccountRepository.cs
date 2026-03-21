@@ -6,6 +6,7 @@ public interface IPolicyAccountRepository
 {
     void Add(PolicyAccount account);
     Task<PolicyAccount> FindByNumber(string number);
+    Task<PolicyAccount?> UpdateAccount(Guid id, PolicyAccount updatedAccount);
 
     // LINQ Query Methods - Changed to IReadOnlyList to match Marten
     Task<IReadOnlyList<PolicyAccount>> GetAllAccounts();

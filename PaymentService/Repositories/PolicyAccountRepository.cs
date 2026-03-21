@@ -95,6 +95,23 @@ public class PolicyAccountRepository : IPolicyAccountRepository
             .ToListAsync();
     }
 
+    public async Task<PolicyAccount?> UpdateAccount(Guid id, PolicyAccount updatedAccount)
+    {
+        Console.WriteLine(">>> Running Update Query: UpdateAccount");
+        var existingAccount = await _session.LoadAsync<PolicyAccount>(id);
+        
+        if (existingAccount == null)
+            return null;
+
+        // Update properties
+        existingAccount.PolicyNumber = updatedAccount.PolicyNumber;
+        existingAccount.PolicyAccountNumber = updatedAccount.PolicyAccountNumber;
+        existingAccount.OwnerName = updatedAccount.OwnerName;
+        existingAccount.Balance = updatedAccount.Balance;
+
+        _session.Update(existingAccount);
+        return existingAccount;
+    }
     public async Task<IReadOnlyList<PolicyAccount>> FindAccountsOrderedByBalance(bool descending = true)
     {
         var query = _session.Query<PolicyAccount>();
